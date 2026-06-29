@@ -30,14 +30,14 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="container-rgv flex items-center justify-between h-16 md:h-20">
+      <div className="container-rgv flex items-center justify-between h-32 md:h-40">
         <a href="#inicio" className="flex items-center gap-3 group">
           <img
             src={logo}
             alt="RGV Construcciones"
-            width={48}
-            height={48}
-            className="h-10 w-10 md:h-12 md:w-12 object-contain transition-transform group-hover:scale-105"
+            width={288}
+            height={144}
+            className="h-28 w-56 md:h-36 md:w-72 object-contain transition-transform group-hover:scale-105"
           />
           <div className="leading-tight hidden sm:block">
             <div className={`font-display font-extrabold text-base md:text-lg ${scrolled ? "text-primary" : "text-white drop-shadow"}`}>
