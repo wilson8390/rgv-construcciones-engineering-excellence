@@ -37,7 +37,7 @@ export function Navbar() {
             alt="RGV Construcciones"
             width={288}
             height={144}
-            className="h-30 w-60 md:h-36 md:w-72 object-contain transition-transform group-hover:scale-105"
+            className="h-28 w-56 md:h-36 md:w-72 object-contain transition-transform group-hover:scale-105"
           />
           <div className="leading-tight hidden sm:block">
             <div className={`font-display font-extrabold text-base md:text-lg ${scrolled ? "text-primary" : "text-white drop-shadow"}`}>
